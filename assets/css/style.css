@@ -2,13 +2,11 @@
    CSS VARIABLES (:root) — HARMONIOUS SLATE & INDIGO PALETTE
    ========================================== */
 :root {
-  /* Warna Utama (Deep Indigo yang tenang & elegan) */
   --primary: #3b5bdb;
   --primary-hover: #364fc7;
   --primary-soft: #edf2ff;
   --primary-border: #bac8ff;
 
-  /* Warna Netral & Permukaan (Kontras tinggi, tidak silau) */
   --bg-body: #f4f6f9;
   --bg-surface: #ffffff;
   --bg-subtle: #f8fafc;
@@ -17,7 +15,6 @@
   --text-muted: #64748b;
   --border-color: #e2e8f0;
 
-  /* Warna Semantik (Lembut & selaras) */
   --success-bg: #ecfdf5;
   --success-border: #6ee7b7;
   --success-text: #065f46;
@@ -30,7 +27,6 @@
   --danger-border: #fca5a5;
   --danger-text: #991b1b;
 
-  /* Bayangan & Radius */
   --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.05);
   --shadow-md: 0 8px 20px rgba(15, 23, 42, 0.06);
   --shadow-lg: 0 16px 32px rgba(30, 41, 59, 0.12);
@@ -750,7 +746,6 @@ main {
   color: var(--text-muted);
 }
 
-/* Badge Prioritas dengan Warna Lembut & Serasi */
 .todo-badge {
   font-size: 0.75rem;
   font-weight: 700;
